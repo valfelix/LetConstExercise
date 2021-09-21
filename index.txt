@@ -1,0 +1,23 @@
+let and const Exercise
+In this exercise, you’ll refactor some ES5 code into ES2015.
+
+ES5 Global Constants
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 Global Constants
+/* Write an ES2015 Version */
+const pi = 3.14;
+
+Quiz
+What is the difference between var and let?
+- Var can be reassigned and redeclared while let cannot be redeclared. Var can be called outside of the scope it was declared in while let cannot.
+
+What is the difference between var and const?
+- Var can be reassigned and redeclared while const cannot be redeclared. Var can be called outside of the scope it was declared in while const cannot.
+
+What is the difference between let and const?
+- Var can be reassigned while const cannot.
+
+What is hoisting?
+- Variable hoisting occurs with var where the declarations in the code run first, leading to a return of undefined instead of a reference error when calling a variable before it was declared in the code.
